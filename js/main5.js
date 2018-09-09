@@ -83,7 +83,6 @@
         // Fit renderer to the screen
         if ( options.fullScreen === true ) {
           renderer.view.style.objectFit = 'cover';
-          renderer.view.style.width     = '42.4vh';
           renderer.view.style.top       = '50%';
           renderer.view.style.left      = '50%';
           renderer.view.style.webkitTransform = 'translate( -50%, -50% ) rotate(90deg)';
