@@ -83,14 +83,14 @@
         // Fit renderer to the screen
         if ( options.fullScreen === true ) {
           renderer.view.style.objectFit = 'cover';
-          renderer.view.style.width     = '100%';
-          renderer.view.style.height    = '100%';
+          renderer.view.style.width     = '42.4vh';
+          renderer.view.style.height    = '42.4vh';
           renderer.view.style.top       = '50%';
           renderer.view.style.left      = '50%';
-          renderer.view.style.webkitTransform = 'translate( -50%, -50% ) scale(1.2)';
-          renderer.view.style.transform = 'translate( -50%, -50% ) scale(1.2)';           
+          renderer.view.style.webkitTransform = 'translate( -50%, -50% ) rotate(90deg)';
+          renderer.view.style.transform = 'translate( -50%, -50% ) rotate(90deg)';           
         } else {
-          renderer.view.style.maxWidth  = '100%';
+          renderer.view.style.maxWidth  = '42.4vh';
           renderer.view.style.top       = '50%';
           renderer.view.style.left      = '50%';
           renderer.view.style.webkitTransform = 'translate( -50%, -50% )';
