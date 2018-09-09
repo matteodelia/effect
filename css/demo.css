@@ -27,10 +27,6 @@ body {
   transform: translate(-50%,-50%);
 }
 
-#welcome:hover {
-  animation: lampeggio 1s infinite alternate;
-}
-
 #my_story {
   margin: 0;
   font-family: "montserrat";
