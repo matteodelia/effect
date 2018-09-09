@@ -20,11 +20,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-#pic1 {
-	max-width: 42.4vh;
-	height: auto;
-}
-
 #welcome {
   font-family: "montserrat";
   font-weight: 600;
